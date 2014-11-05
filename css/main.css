@@ -1,0 +1,208 @@
+html {
+  text-decoration: none;
+  font: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.row {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+html {
+  font-size: 28px;
+  color: rgb(255,255,255);
+  background: rgb(78,100,126);
+}
+
+.grid {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+#header-text {
+  text-align: right;
+}
+
+.featured-box {
+  color: rgb(255,255,255);
+  text-align: center;
+  margin: 5px;
+  background: rgb(78,100,126);
+  -webkit-transition: background, color 1s ease-in-out;
+  -moz-transition: background, color 1s ease-in-out;
+  -o-transition: background, color 1s ease-in-out;
+  transition: background, color 1s ease-in-out;
+}
+
+.featured-box:hover {
+  background: rgb(255,255,255);
+  color: rgb(78,100,126);
+}
+
+
+@media(max-width: 760px) {
+  html {
+    font-size: 18px;
+  }
+  
+  .grid {
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8 {
+    width: 50%;
+  }
+  
+  .col-9
+  ,.col-10
+  ,.col-11 {
+    width: 75%;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+  #header-text {
+    text-align: right;
+  }
+  
+  .featured-box {
+    color: rgb(255,255,255);
+    text-align: center;
+    margin: 5px;
+  }
+}
+
+@media(max-width: 360px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .grid {
+    width: 98%;
+    margin: 0 auto;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+
+  #header-text {
+    text-align: center;
+  }
+  
+  .featured-box {
+    color: rgb(255,255,255);
+    text-align: center;
+    margin: 0;
+  }
+}
+
+header {
+  margin-bottom: 10px;
+  border-bottom: 4px solid white;
+}
+
+#about-text {
+  padding: 5px;
+}
+
+#featured-title {
+  border-bottom: 4px solid white;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
